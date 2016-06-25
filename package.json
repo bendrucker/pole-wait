@@ -1,0 +1,34 @@
+{
+  "name": "pole-wait",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Wait until a pole poller responds with an expected result",
+  "license": "MIT",
+  "repository": "bendrucker/pole-wait",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "pole",
+    "poll",
+    "event",
+    "callback",
+    "wait",
+    "await"
+  ],
+  "devDependencies": {
+    "geval": "~2.1.1",
+    "pole": "~1.2.0",
+    "standard": "^7.0.0",
+    "tape": "^4.0.0"
+  },
+  "files": [
+    "index.js",
+    "test.js"
+  ]
+}
