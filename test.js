@@ -14,11 +14,11 @@ test('success', function (t) {
 
   wait(poller, (data) => data.foo, function (err, data) {
     if (err) return t.end(err)
-    t.deepEqual(data, {foo: 'bar'})
+    t.deepEqual(data, { foo: 'bar' })
   })
 
-  poller.onData({bar: 'baz'})
-  poller.onData({foo: 'bar'})
+  poller.onData({ bar: 'baz' })
+  poller.onData({ foo: 'bar' })
 })
 
 test('success', function (t) {

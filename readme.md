@@ -1,4 +1,4 @@
-# pole-wait [![Build Status](https://travis-ci.org/bendrucker/pole-wait.svg?branch=master)](https://travis-ci.org/bendrucker/pole-wait)
+# pole-wait [![Build Status](https://travis-ci.org/bendrucker/pole-wait.svg?branch=master)](https://travis-ci.org/bendrucker/pole-wait) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/pole-wait.svg)](https://greenkeeper.io/)
 
 > Wait until a [pole](https://github.com/bendrucker/pole) poller responds with an expected result
 
